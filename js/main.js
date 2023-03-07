@@ -63,7 +63,7 @@ function setNewReview(name, message, counts) {
 function renderReview() {
   const templ = getLocalStorageReview();
   if (templ)
-    document.querySelector('.reviews__items').insertAdjacentHTML('beforeend', JSON.parse(templ));
+    document.querySelector('.reviews__items').insertAdjacentHTML('afterbegin', JSON.parse(templ));
 }
 
 document.addEventListener('DOMContentLoaded', function () {

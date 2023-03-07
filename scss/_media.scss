@@ -192,4 +192,24 @@
   .notify{
     font-size: .75rem;
   }
+  .rating-picker{
+    .star{
+      opacity: 0.2;
+    }
+    .star:hover{
+      opacity: 1;
+    }
+    
+  }
+
+
+  .reviews__items{
+    overflow-x: auto;
+    margin: 0 -0.9375rem;
+    padding: 0 .9375rem;
+  }
+  .reviews__item{
+    width: 80vw;
+    flex: 0 0 80vw;
+  }
 }

@@ -1,0 +1,195 @@
+@media screen and (min-width: 768px) {
+  .not-pk {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .not-mobile {
+    display: none !important;
+  }
+
+  html {
+    font-size: vw(16px, 375px);
+  }
+
+  .header {
+    .container {
+      padding: 0;
+    }
+    .logo {
+      padding-left: .9375rem;
+      img {
+        width: 7rem;
+      }
+    }
+  }
+  .header-btn {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 .4375rem;
+    height: 3.125rem;
+  }
+
+  .header__row{
+    gap: 0;
+  }
+  .btn-tells{
+    display: flex;
+    height: 3.125rem;
+    border-left: .0625rem solid $accent;
+    padding: 0 0.5rem;
+    &.active{
+      background-color: $accent;
+    }
+    img{
+      width: 2.5rem;
+      cursor: pointer;
+    }
+  }
+
+  .header-tells{
+    display: none;
+  }
+
+  .header-tells.active{
+    display: flex;
+    flex-direction: column;
+    top: 3.1875rem;
+    left: 0;
+    padding: 4rem .9375rem;
+    position: absolute;
+    width: 100%;
+    background-color: $bg;
+    text-align: center;
+    // min-height: 50vh;
+    z-index: 2;
+  }
+
+  .main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .main__row{
+    flex-direction: column;
+  }
+  .main__image img{
+    width: 17.5rem;
+  }
+
+  .main__desc{
+    h1{
+      font-size: 1.875rem;
+      margin-bottom: .9375rem;
+    }
+    p{
+      font-size: 1.125rem;
+    }
+  }
+  .main::before{
+    width: 25.875rem;
+    height: 25.875rem;
+    top: -3.125rem;
+    right: -9.125rem;
+    filter: blur(0);
+  }
+  .input-group--50{
+    width: 100%;
+  }
+
+  .form-title{
+    font-size: 1.25rem;
+    span{
+      font-size: inherit;
+    }
+  }
+  .form{
+    margin: 1.25rem auto;
+  }
+
+  .form input, .form textarea{
+    // height: 3.25rem;
+    font-size: .875rem;
+    &::placeholder{
+      font-size: .875rem;
+    }
+  }
+  .form button{
+    font-size: .875rem;
+    gap: .75rem;
+  }
+
+  .arrow-right{
+    width: .875rem;
+  }
+  .form-small-text{
+    font-size: .875rem;
+  }
+  .block-row{
+    flex-direction: column;
+  }
+  .block-text p{
+    font-size: 1rem;
+  }
+
+  .amulet .block-row{
+    flex-direction: column-reverse;
+  }
+  .reviews-title{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .reviews__items{
+    gap: 1.25rem;
+  }
+  .reviews__item::before, .reviews__item::after{
+    width: 3.125rem;
+    height: 2.1875rem;
+  }
+  .reviews__top{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .625rem;
+  }
+  .reviews__form{
+    flex-direction: column;
+  }
+  .reviews__form-desc{
+    width: 100%;
+  }
+  .reviews__form-desc h3{
+    font-size: 1.25rem;
+  }
+  .reviews__form-desc p{
+    font-size: 1rem;
+  }
+  .reviews__form .form .input-group-review{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    // margin-bottom: 1rem;
+  }
+
+  .footer{
+    &__row{
+      height: auto;
+      display: block;
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .tells{
+      flex-direction: column;
+    }
+    .btn-top{
+      margin: 1rem auto;
+    }
+  }
+
+  .notify{
+    font-size: .75rem;
+  }
+}

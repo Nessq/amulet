@@ -1,0 +1,90 @@
+.bgs {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  mix-blend-mode: color-dodge;
+  overflow: hidden;
+}
+
+.bgs__pk {
+  opacity: 0.5;
+  img {
+    position: absolute;
+  }
+  .bg-1 {
+    width: 36.5625rem;
+    height: 43.625rem;
+    top: 0;
+    left: 0;
+  }
+  .bg-2 {
+    width: 38.0625rem;
+    height: 41.1875rem;
+    top: 0;
+    right: 0;
+  }
+  .bg-3 {
+    width: 25.125rem;
+    height: 48.5625rem;
+    top: 17%;
+    left: 0;
+  }
+  .bg-4 {
+    width: 36.1875rem;
+    height: 62.25rem;
+    top: 20%;
+    right: 0;
+  }
+  .bg-5 {
+    width: 28.75rem;
+    height: 59.625rem;
+    top: 48%;
+    left: 0;
+  }
+  .bg-6 {
+    width: 11.5625rem;
+    height: 69.5rem;
+    top: 65%;
+    right: 0;
+  }
+  .bg-7 {
+    width: 27.875rem;
+    height: 86.625rem;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.bgs__mobile {
+  opacity: 0.7;
+  img {
+    position: absolute;
+  }
+  .bg-1 {
+    width: 16.625rem;
+    height: 17.4375rem;
+    top: 0;
+    left: 0;
+
+  }
+  .bg-2 {
+    width: 23.4375rem;
+    height: 33.5625rem;
+    top: 9%;
+    right: 0;
+  }
+  .bg-3 {
+    width: 23.4375rem;
+    height: 48.5625rem;
+    top: 29%;
+    left: 0;
+  }
+  .bg-4 {
+    width: 23.4375rem;
+    height: 71.3125rem;
+    bottom: 1%;
+    right: 0;
+  }
+}
